@@ -41,7 +41,7 @@ Route::middleware('auth:sanctum')->group(function(){
 
     Route::get('transactions', [TransactionController::class, 'all']);
     //  membuat APi untuk transactions dengan class/file yg dinamakan UserController dan method "transactions" menggunakan auth sanctum
-    Route::post('checkout', [TransactionController::class, 'checkout']);Route::post('checkout', [TransactionController::class, 'checkout']);
+    Route::post('checkout', [TransactionController::class, 'checkout']);
     //  membuat APi untuk checkout dengan class/file yg dinamakan UserController dan method "checkout" menggunakan auth sanctum
 
 
